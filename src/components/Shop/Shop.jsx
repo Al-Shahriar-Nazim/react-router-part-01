@@ -1,8 +1,9 @@
 import React from "react";
+import { MdGppGood } from "react-icons/md";
 
 const Shop = ({ shop }) => {
   console.log(shop);
-  const {name, price, image} = shop;
+  const {name, price, image,description,features,currency} = shop;
   return (
     <div>
       <div className="card bg-base-100 w-96 shadow-2xl">
@@ -15,10 +16,18 @@ const Shop = ({ shop }) => {
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
           <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
+          {description}
           </p>
-          <p>{price}</p>
+         <p>
+            Features :
+            <br />
+            <span>
+                {
+                    features.map(feature =><p className="flex items-center gap-x-2"><MdGppGood></MdGppGood>{feature}</p>)
+                }
+            </span>
+         </p>
+          <b>Price :{price} {currency}</b>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Buy Now</button>
           </div>
