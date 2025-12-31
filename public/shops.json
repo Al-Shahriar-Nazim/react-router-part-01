@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 999,
+    "currency": "BDT",
+    "billing": "monthly",
+    "description": "Perfect for growing businesses",
+    "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    "features": [
+      "3 Shops Access",
+      "Unlimited Products",
+      "Advanced Dashboard",
+      "Sales Reports",
+      "Priority Support"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 1999,
+    "currency": "BDT",
+    "billing": "monthly",
+    "description": "Best for professional brands",
+    "image": "https://images.unsplash.com/photo-1556741533-411cf82e4e2d",
+    "features": [
+      "Unlimited Shops",
+      "Unlimited Products",
+      "Analytics & Insights",
+      "SMS Notifications",
+      "24/7 Support"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Plan",
+    "price": 2999,
+    "currency": "BDT",
+    "billing": "monthly",
+    "description": "For enterprise & big organizations",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+    "features": [
+      "Unlimited Staff",
+      "Unlimited Products",
+      "Custom Branding",
+      "Dedicated Manager",
+      "Premium Priority Support"
+    ]
+  }
+]
